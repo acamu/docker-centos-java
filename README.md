@@ -11,7 +11,7 @@ We will create a docker image for a JAVA Application (Simple or not)
 **[Pre requisite]**
 - Docker installed
 
-- for execute script Docker deamon must be started : dockerd with  --iptables=false
+- for execute script, Docker deamon must be started : dockerd with  --iptables=false
 
 
 
