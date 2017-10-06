@@ -37,6 +37,7 @@ Who begin by that:
     RUN yum -y install wget
  
 **2 . Downloading & Config Java 8 Oracle JDK **
+
     RUN wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/$JAVA_VERSION-$BUILD_VERSION/jdk-$JAVA_VERSION-linux-x64.rpm" -O /tmp/jdk-8-linux-x64.rpm
     RUN yum -y install /tmp/jdk-8-linux-x64.rpm
     RUN alternatives --install /usr/bin/java jar /usr/java/latest/bin/java 200000
